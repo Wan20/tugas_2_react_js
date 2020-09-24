@@ -1,0 +1,17 @@
+ul li {
+    float: left;
+}
+ul {
+    float:none;margin: 20px auto -10px auto; display: table;table-layout: fixed;
+}
+ul li:not(:last-child) {
+    border-right:1px solid grey;
+    margin-right:20px;
+    padding-right:20px;
+    list-style-type: none;
+}
+ul li:last-child {
+    margin-right:20px;
+    padding-right:20px;
+    list-style-type: none;
+}
